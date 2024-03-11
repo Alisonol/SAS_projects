@@ -110,7 +110,7 @@ Datalines;
 run;
 
 
-/*Criar uma nova tabela chamada tab_exec_1 que deve conter os clientes, a soma e a média do 
+/*Criando uma nova tabela chamada tab_exec_1 que deve conter os clientes, a soma e a média do 
 Valor das faturas desses cliente nos últimos 90 dias*/
 
 PROC SQL;
@@ -133,7 +133,7 @@ QUIT;
 e filtragem dos valores cuja data é maior que 052023, vide que a data_max é 072023*/
 
 
-/*Faça uma contagem de clientes com forma de pagamento = 1 e retorne o valor médio de todas as 
+/*Realizando uma contagem de clientes com forma de pagamento = 1 e retorne o valor médio de todas as 
 faturas existentes*/
 
 /*PROC PRINT DATA=work.tabela_b;
